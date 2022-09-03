@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    width: 1310px;
+    height: 72px;
+    position: static;
+}
+
+#logo {
+    width: 92px;
+    height: 20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 98px;
+   
+   
+}
+
+/*menu de navegação*/
+.container{
+    width: 1310px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+
+
+a {
+    position: relative;
+   
+    top: 1px;
+    left: 58px;
+    text-decoration: none;
+    font-family: 'Epílogo', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #202020;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+a:hover{
+    color: aquamarine;
+    transition: 1s;
+}
+
+.botao {
+    position: relative;
+    left: 90px;
+    width: 164px;
+    height: 40;
+    background-color: #ffc800;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 1.5625rem;
+    border: 0px;
+    font-family:'Epílogo', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* puclicação*/
+#background{
+    background-image: url(assets/varias-maos-segurando-cartoes-da-neon-1920x568.jpg);
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 600px;
+    background-size: auto 100%;
+    background-position: 50%;
+    
+}
+
+.box{
+   width: 500px;
+    height: 452px;
+   position: relative;
+    padding: 60px;
+    background-color: #00233c;
+    border-radius: 59px 59px 59px 15px;
+    margin-left: 50px;
+    top: 50px;
+   
+}
+h1{
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 62.4px;
+    font-family: cursive;
+}
+p{
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: cursive;
+    padding-bottom: 20px;
+    top: 16px;
+    
+}
+.botao-cartao{
+    width: 155px;
+    height: 40px;
+    position: relative;
+    background-color: #ffc800;
+    font-size: 16px;
+    font-family:'Epílogo',sans-serif;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 0px;
+    top: 32px;
+}
